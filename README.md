@@ -11,9 +11,9 @@ Takes in two mandatory arguments that are :
 This program also supports optional flag that is used to specify the Overlay Operation type.
 
 The Overlay Operation flags support are the following:
-	1. ```"-a" ``` - averages the value of both image 
-	2. ```"-l" ``` - replaces pixel value only if overlaying image pixel value is less than main image.
-	3. ```"-g" ``` - replaces pixel value only if overlaying image pixel value is greater than main image.
+1. ```"-a" ``` - averages the value of both image 
+2.  ```"-l" ```- replaces pixel value only if overlaying image pixel value is less than main image.
+3. ```"-g" ``` - replaces pixel value only if overlaying image pixel value is greater than main image.
 
 In the absence of a flag the overlay image's pixel replaces main image's pixel value without any condition or additional operation.
 
