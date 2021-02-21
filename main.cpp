@@ -38,10 +38,10 @@ int main( int argc, char** argv )
            std::ifstream mainFile( mainFileString, std::ios_base::in | std::ios_base::binary );
            std::ifstream overlayFile( overlayFileString, std::ios_base::in | std::ios_base::binary );
 
-           std::ofstream outputFile( "Output.pgm", std::ios_base::out | std::ios_base::binary );
-
            if ( mainFile.is_open() && overlayFile.is_open() )
            {
+               std::ofstream outputFile( "Output.pgm", std::ios_base::out | std::ios_base::binary );
+
                PGMImageData backgroundImage( mainFile );
                PGMImageData overlayImage( overlayFile );
 
