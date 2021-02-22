@@ -6,8 +6,6 @@ Takes in two mandatory arguments that are :
 1. File path for main image 
 2. File path for image to overlay on the main image
 
-
-
 This program also supports optional flag that is used to specify the Overlay Operation type.
 
 The Overlay Operation flags support are the following:
@@ -32,18 +30,18 @@ make clean
 
 To start the program run the following in the terminal
 ```console
- ./ImageOverlay TestImage_1_P2_640x480.pgm SmileyImage200x200pgm -l
+ ./ImageOverlay TestImage_1_P2_640x480.pgm SmileyImage200x200.pgm -l
  ```
 
 
 ####  Other Usage examples
 
 ```console
- ./ImageOverlay TestImage_1_P2_640x480.pgm SmileyImage200x200pgm
+ ./ImageOverlay TestImage_1_P2_640x480.pgm SmileyImage200x200.pgm
  ```
  ```console
- ./ImageOverlay TestImage_1_P2_640x480.pgm SmileyImage200x200pgm -a
+ ./ImageOverlay TestImage_1_P2_640x480.pgm SmileyImage200x200.pgm -a
  ```
   ```console
- ./ImageOverlay TestImage_1_P2_640x480.pgm SmileyImage200x200pgm -g
+ ./ImageOverlay TestImage_1_P2_640x480.pgm SmileyImage200x200.pgm -g
  ```
